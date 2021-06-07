@@ -1,0 +1,461 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+img{
+	width: 100%;
+}
+@font-face{
+	font-family: "Lemon Tuesday";
+  	src: url(fonts/lemon-tuesday.otf);
+}
+@font-face{
+	font-family: Valley;
+	src: url(fonts/valley.ttf);
+}
+
+/*NAVIGATION*/
+
+.bg_color{ 
+	background: #7ab36c; 
+}
+.text{
+	color: #000;
+	font-size: 1.3em;
+	font-weight: bold;
+	margin: 0 10px;
+	font-family: "Segoe UI";
+	text-transform: uppercase;
+}
+.text:hover{
+	color: #555;
+	text-decoration: none;
+}
+
+/*HEADER*/
+
+.main-head{
+	width: 80%;
+	margin: 0 auto;
+}
+#logo-container{
+	text-align: center;
+}
+#logo-container img{
+	width: 30%;
+	margin: 10px auto;
+}
+
+/*SLOGAN*/
+
+#slogan{
+	text-align: center;
+	background-color: #7ab36c;
+	margin: 30px 0;
+	padding: 20px 0;
+	color: #000;
+}
+#slogan h1{
+	font-family: Valley;
+	font-size: 3.5em;
+}
+
+/*MAIN BODY*/
+
+.col-main{
+	width: 50%;
+	float: left;
+	text-align: center;
+	border-top: 5px solid #7ab36c;
+}
+article{
+	text-align: center;
+	width: 80%;
+	margin: 10px auto;
+	border-bottom: 5px solid #7ab36c;
+}
+h3{
+	font-family: "Lemon Tuesday";
+	font-size: 3.8em;
+	margin: 20px 0;
+	color: #000;
+}
+.facts-jam img{
+	margin: 10px 0;
+	width: 70%;
+	border: 7px solid #7ab36c;
+}
+#all-jams img{
+	margin: 10px 0;
+	width: 75.5%;
+	border: 7px solid #7ab36c;
+}
+.btn-main{
+	width: 50%;
+	border: 3px solid #7ab36c;
+	background-color: #7ab36c;
+	font-family: "Segoe UI";
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	margin: 10px 0px;
+	cursor: pointer;
+}
+#about-us img{
+	width: 15%;
+	margin: 10px 0;
+}
+
+/*ASIDE*/
+
+aside, main{
+	width: 100%;
+	background-color: #13331d;
+	text-align: center;
+	color: #e5f3d9;
+}
+aside .rating-section{
+	background-color: #13331d;
+	margin: 5px 20px;
+	text-align: center;
+}
+aside section h3, main section h3{
+	font-family: "Lemon Tuesday";
+	font-size: 3em;
+	color: #fee9e8;
+}
+aside section h3{
+	border-bottom: 3px solid #fee9e8;
+}
+aside section h4{
+	font-family: "Lemon Tuesday";
+	font-size: 5em;
+	padding: 30px 0;
+	color: #fee9e8;
+}
+aside section p{
+	font-family: "Segoe UI";
+	font-size: 1.2em;
+	color: #fee9e8;
+}
+.name-rating{
+	font-size: 3em;
+}
+.img-rating{
+	width: 5%;
+	border-radius: 100px;
+	border: 7px solid #e5f3d9;
+	margin: 0px 0px 20px 0px;
+}
+.star{
+	width: 2%;
+}
+
+/*PAGE ABOUT & 10 FACTS*/
+
+.main-body{
+	text-align: center;
+}
+h4{
+	font-family: "Segoe UI";
+	font-size: 3em;
+	color: #550512;
+	padding-top: 20px;
+}
+.post{
+	width: 80%;
+	margin: 20px auto;
+	background-color: #fee9e8;
+}
+.post p, .post ul, .post ol{
+	font-family: "Segoe UI";
+	font-size: 1.2em;
+	padding: 20px 60px;
+	text-align: justify;
+}
+.post ul li{
+	list-style-type: none;
+	font-family: "Segoe UI";
+	font-size: 1em;
+	text-align: justify;
+}
+.post ul li::before{
+	content: "▶";
+	color: #13331d;
+	padding-right: 10px;
+}
+span{
+	font-weight: bold;
+	color: #13331d;
+}
+.center{
+	text-align: center !important;
+	font-size: 4em;
+}
+.post ol li{
+	font-family: "Segoe UI";
+	font-size: 1em;
+	text-align: justify;
+	padding-left: 20px;
+}
+.strawberry{
+	width: 10%;
+	transition: width 2s;
+}
+.strawberry:hover{
+	width: 13%;
+}
+
+/*PAGE COLLECTION*/
+
+.jam-images img{
+	width: 60%;
+	transition: width 1s;
+}
+.jam-images img:hover{
+	width: 70%;
+}
+.main-container-jams{
+	background-color: #ccc;
+	width: 100%;
+}
+.col-jams{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.jam{
+	margin: 20px;
+	background-color: #fee9e8;
+}
+.jam h3{
+	color: #550512;
+}
+.jam h3:hover{
+	color: black;
+}
+.jam button{
+	width: 50%;
+	border: 3px solid #550512;
+	background-color: #fee9e8;
+	font-family: "Segoe UI";
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #550512;
+	margin: 10px 0px;
+	cursor: pointer;
+}
+.show-info{
+	padding: 10px 20px;
+}
+.show-info h5, .price{
+	font-family: "Segoe UI";
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+.show-info p span{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#show1, #show2, #show3, #show4, #show-first, #show-second, #show-third{
+	display: none;
+}
+.btnReadMore{
+	background-color: #fee9e8;
+	border: 3px solid #550512;
+	color: #550512;
+	font-family: "Segoe UI";
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 20px 0px;
+	width: 15%;
+	cursor: pointer;
+}
+.btnReadMore:hover, .jam button:hover{
+	background-color: #550512;
+	color: #fee9e8;
+}
+
+/* FORM */
+
+form{
+	width: 50%;
+	margin: 20px auto;
+	padding: 30px;
+	text-align: left;
+	background-color: #fee9e8;
+}
+form input[type="text"], form input[type="email"], form input[type="date"], form textarea{
+	font-family: "Segoe UI";
+	font-size: 1.2em;
+	padding: 5px;
+	border:1px solid #fee9e8;
+	border-radius: 3px;
+
+}
+form input[type="text"], form input[type="email"] {
+	width: 50%;
+}
+form textarea, form input[name=address], form input[type="date"]{
+	width: 100%;
+}
+form input[type="checkbox"]{
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin-right: 20px;
+	border:1px solid #fee9e8;
+	border-radius: 3px;
+}
+form select{
+	width: 100%;
+}
+form label{
+	font-family: "Segoe UI";
+	font-size: 1.4em;
+	color: #550512;
+}
+input[type="submit"], input[type="reset"]{
+	width: 150px;
+	font-family: "Segoe UI";
+	font-size: 1.5em;
+	background-color: #fee9e8;
+	border:2px solid #550512;
+	color: #550512;
+}
+input[type="submit"]:hover, input[type="reset"]:hover{
+	background-color: #550512;
+	color: #fee9e8;
+}
+input[type="reset"]{
+	float: right; 
+}
+
+/* FOOTER */
+
+.main-foot{
+	width: 100%;
+	float: left;
+	background-color: #7ab36c;
+}
+.main-foot p{
+	padding: 10px 0;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.row-foot{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+}
+.col-foot{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.col-foot h3{
+	font-size: 2.8em;
+	color: #13331d;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 1024px){
+	#logo-container img{
+		width: 40%;
+	}
+	.col-main{
+		width: 100%;
+		float: none;
+	}
+	article{
+		width: 100%;
+	}
+	.col-jams{
+		width: 50%;
+	}
+	form{
+		width: 80%;
+	}
+	.star{
+		width: 5%;
+	}
+	.img-rating{
+		width: 10%;
+	}
+	.col-foot h3{
+		font-size: 2em;
+	}
+	.btnReadMore{
+		width: 30%;
+	}
+}
+@media (max-width: 768px){
+	#logo-container img{
+		width: 50%;
+	}
+	.btnReadMore{
+		width: 50%;
+	}
+	.facts-jam img{
+		width: 75%;
+	}
+	.strawberry{
+		width: 30%;
+	}
+	#about-us img{
+		width: 40%;
+	}
+}
+@media (max-width: 425px){
+	#logo-container img{
+		width: 70%;
+	}
+	#slogan h1, #slogan h3{
+		font-size: 2.5em;
+	}
+	.post{
+		width: 95%;
+	}
+	.post p{
+		padding: 20px;
+	}
+	.post ul, .post ol{
+		padding: 40px;
+	}
+	.rating-section h3{
+		font-size: 3em;
+	}
+	.btn-main{
+		width: 75%;
+	}
+	.star{
+		width: 10%;
+	}
+	.img-rating{
+		width: 20%;
+	}
+	.col-foot{
+		width: 100%;
+		float: none;
+	}
+	.col-jams{
+		width: 100%;
+		float: none;
+	}
+	form{
+		width: 95%;
+	}
+	input[type="submit"], input[type="reset"]{
+		width: 120px;
+	}
+}
+@media (max-width: 375px){
+	.jam button{
+		width: 60%;
+	}
+}
